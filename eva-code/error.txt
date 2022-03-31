@@ -1,0 +1,31 @@
+21 2022-02-26 22:00:00  SITE_Corporate_open-accounts  submit_form  monthly_Не выбран, нужна консультация_5b04403d...       1
+22 2022-02-26 22:00:00  SITE_Corporate_open-accounts  submit_form  monthly_Не выбран, нужна консультация_e95fa4f5...       1
+started: sberbank.ru submit form
+1175048
+ym:s:visits
+ym:s:date,ym:s:paramsLevel1,ym:s:paramsLevel2,ym:s:paramsLevel3
+paramsLevel1=='SITE_Corporate_reserved-checking-account24' AND paramsLevel2=='submit_form' AND paramsLevel3 !@ 'callback_multi'
+Index(['date', 'paramsLevel1', 'paramsLevel2', 'paramsLevel3', 'visits'], dtype='object')
+before
+Index(['date', 'paramsLevel1', 'paramsLevel2', 'paramsLevel3', 'visits'], dtype='object')
+after
+/home/nikolay/evaproj/eva/mainlib.py:319: FutureWarning: As the xlwt package is no longer maintained, the xlwt engine will be removed in a future version of pandas. This is the only engine in pandas that supports writing in the xls format. Install openpyxl and write to an xlsx file instead. You can set the option io.excel.xls.writer to 'xlwt' to silence this warning. While this option is deprecated and will also raise a warning, it can be globally set and the warning suppressed.
+  date_df_dict[abnormal_date].sort_values(metric, ascending=False).to_excel(saved_filename, index=False)
+/home/nikolay/evaproj/eva/mainlib.py:331: FutureWarning: As the xlwt package is no longer maintained, the xlwt engine will be removed in a future version of pandas. This is the only engine in pandas that supports writing in the xls format. Install openpyxl and write to an xlsx file instead. You can set the option io.excel.xls.writer to 'xlwt' to silence this warning. While this option is deprecated and will also raise a warning, it can be globally set and the warning suppressed.
+  df_target.sort_values(metric, ascending=False).to_excel(logfilename, index=False)
+Traceback (most recent call last):
+  File "/home/nikolay/evaproj/eva/main.py", line 70, in <module>
+    check_and_send_message(name=check['url'], check_name=check['check_name'], url=check['url'], counter=check['counter_id'], 
+  File "/home/nikolay/evaproj/eva/mainlib.py", line 331, in check_and_send_message
+    df_target.sort_values(metric, ascending=False).to_excel(logfilename, index=False)
+  File "/home/nikolay/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 2189, in to_excel
+    formatter.write(
+  File "/home/nikolay/.local/lib/python3.8/site-packages/pandas/io/formats/excel.py", line 815, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "/home/nikolay/.local/lib/python3.8/site-packages/pandas/io/excel/_xlwt.py", line 34, in __init__
+    super().__init__(
+  File "/home/nikolay/.local/lib/python3.8/site-packages/pandas/io/excel/_base.py", line 810, in __init__
+    self.handles = get_handle(
+  File "/home/nikolay/.local/lib/python3.8/site-packages/pandas/io/common.py", line 651, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: './log/sberbank.ru_2022-03-06-00-00-08.xls'

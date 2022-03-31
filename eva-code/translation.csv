@@ -1,0 +1,215 @@
+Название api,Название на русском
+ym:s:<attribution>TrafficSource,Источник трафика
+ym:s:<attribution>SourceEngine,Источник трафика (детально)
+ym:s:<attribution>AdvEngine,Рекламная система
+ym:s:lastsignAdvEngine,Рекламная система
+ym:s:<attribution>ReferalSource,Переход с сайтов
+ym:s:<attribution>Messenger,Переход из мессенджера
+ym:s:<attribution>RecommendationSystem,Переход из рекомендательной системы
+ym:s:<attribution>DirectClickOrder,Кампания Яндекс.Директа
+ym:s:<attribution>DirectBannerGroup,Группа объявлений
+ym:s:<attribution>DirectClickBanner,Объявление Яндекс.Директа
+ym:s:<attribution>DirectPhraseOrCond,Условие показа объявления
+ym:s:<attribution>DirectPlatformType,Тип площадки
+ym:s:<attribution>DirectPlatform,Площадка
+ym:s:<attribution>DirectSearchPhrase,Поисковая фраза (Директ)
+ym:s:<attribution>DirectConditionType,Тип условия показа объявления
+ym:s:<attribution>Currency,Валюта
+ym:s:experimentAB<experiment_ab>,Эксперимент Яндекс.Директа
+ym:s:<attribution>DisplayCampaign,Номер заказа Яндекс.Дисплея
+ym:s:marketSearchPhrase,Фраза (Маркет)
+ym:s:<attribution>SearchEngineRoot,Поисковая система
+ym:s:<attribution>SearchEngine,Поисковая система (детально)
+ym:s:<attribution>SearchPhrase,Поисковая фраза
+ym:s:<attribution>SocialNetwork,Cоциальная сеть
+ym:s:<attribution>SocialNetworkProfile,Группа соц. Сети
+ym:s:referer,Реферер
+ym:s:refererProto,Протокол реферера
+ym:s:refererDomain,Домен реферера
+ym:s:refererPathFull,Путь (полный) реферера
+ym:s:refererPath,Путь реферера
+ym:s:refererPathLevel1,"Реферер, ур. 1"
+ym:s:refererPathLevel2,"Реферер, ур. 2"
+ym:s:refererPathLevel3,"Реферер, ур. 3"
+ym:s:refererPathLevel4,"Реферер, ур. 4"
+ym:s:refererPathLevel5,"Реферер, ур. 5"
+ym:s:externalRefererHash,Внешний реферер
+ym:s:externalReferer,Внешний реферер
+ym:s:externalRefererProto,Протокол внешнего реферера
+ym:s:externalRefererDomain,Домен внешнего реферера
+ym:s:externalRefererPathFull,Путь (полный) внешнего реферера
+ym:s:externalRefererPath,Путь внешнего реферера
+ym:s:externalRefererPathLevel1,"Внешний реферер, ур. 1"
+ym:s:externalRefererPathLevel2,"Внешний реферер, ур. 2"
+ym:s:externalRefererPathLevel3,"Внешний реферер, ур. 3"
+ym:s:externalRefererPathLevel4,"Внешний реферер, ур. 4"
+ym:s:externalRefererPathLevel5,"Внешний реферер, ур. 5"
+ym:s:from,Метка from
+ym:s:lastsignUTMCampaign,UTM Campaign
+ym:s:lastsignUTMContent,UTM Content
+ym:s:lastsignUTMMedium,UTM Medium
+ym:s:lastsignUTMSource,UTM Source
+ym:s:lastsignUTMTerm,UTM Term
+ym:s:openstatAd,Openstat Ad
+ym:s:openstatCampaign,Openstat Campaign
+ym:s:openstatService,Openstat Service
+ym:s:openstatSource,Openstat Source
+ym:s:hasGCLID,Наличие GCLID
+ym:s:goal,Достигнутая цель
+ym:s:goal<goal_id>IsReached,Достигнутый шаг составной цели
+ym:s:pageViewsInterval,Глубина просмотра
+ym:s:pageViews,Глубина просмотра (детально)
+ym:s:visitDurationInterval,Время на сайте
+ym:s:visitDuration,Время на сайте (детально)
+ym:s:bounce,Отказность
+ym:s:isRobot,Роботность
+ym:s:startURL,Страница входа
+ym:s:startURLProto,Протокол страницы входа
+ym:s:topLevelDomain,Домен верхнего уровня страницы входа
+ym:s:startURLDomain,Домен страницы входа
+ym:s:startURLPathFull,Путь (полный) страницы входа
+ym:s:startURLPath,Путь страницы входа
+ym:s:startURLPathLevel1,"Страница входа, ур. 1"
+ym:s:startURLPathLevel2,"Страница входа, ур. 2"
+ym:s:startURLPathLevel3,"Страница входа, ур. 3"
+ym:s:startURLPathLevel4,"Страница входа, ур. 4"
+ym:s:startURLPathLevel5,"Страница входа, ур. 5"
+ym:s:endURL,Страница выхода
+ym:s:endURLProto,Протокол страницы выхода
+ym:s:endURLDomain,Домен страницы выхода
+ym:s:endURLPathFull,Путь (полный) страницы выхода
+ym:s:endURLPath,Путь страницы выхода
+ym:s:endURLPathLevel1,"Страница выхода, ур. 1"
+ym:s:endURLPathLevel2,"Страница выхода, ур. 2"
+ym:s:endURLPathLevel3,"Страница выхода, ур. 3"
+ym:s:endURLPathLevel4,"Страница выхода, ур. 4"
+ym:s:endURLPathLevel5,"Страница выхода, ур. 5"
+ym:s:paramsLevel1,"Параметр визита, ур. 1"
+ym:s:paramsLevel2,"Параметр визита, ур. 2"
+ym:s:paramsLevel3,"Параметр визита, ур. 3"
+ym:s:paramsLevel4,"Параметр визита, ур. 4"
+ym:s:paramsLevel5,"Параметр визита, ур. 5"
+ym:s:paramsLevel6,"Параметр визита, ур. 6"
+ym:s:paramsLevel7,"Параметр визита, ур. 7"
+ym:s:paramsLevel8,"Параметр визита, ур. 8"
+ym:s:paramsLevel9,"Параметр визита, ур. 9"
+ym:s:paramsLevel10,"Параметр визита, ур. 10"
+ym:s:date,Дата визита
+ym:s:datePeriod<group>,Интервал дат визита
+ym:s:startOfYear,Год визита
+ym:s:startOfQuarter,Квартал визита
+ym:s:startOfMonth,Месяц визита
+ym:s:startOfWeek,Неделя визита
+ym:s:startOfHour,Час визита
+ym:s:startOfDekaminute,Начало декаминуты визита
+ym:s:startOfMinute,Минута визита
+ym:s:dateTime,Дата и время визита
+ym:s:year,Год визита
+ym:s:month,Месяц визита
+ym:s:dayOfMonth,День месяца визита
+ym:s:dayOfWeek,День недели визита
+ym:s:hour,Час визита
+ym:s:minute,Минута визита
+ym:s:dekaminute,Декаминута визита
+ym:s:hourMinute,Час и минута визита
+ym:s:isNewUser,Является ли визит первым визитом посетителя
+ym:s:userVisitsInterval,Визитов в истории
+ym:s:userVisits,Визитов в истории (детально)
+ym:s:daysSinceFirstVisitInterval,Дней от первого визита
+ym:s:daysSinceFirstVisit,Дней от первого визита (детально)
+ym:s:daysSincePreviousVisitInterval,Время возврата
+ym:s:daysSincePreviousVisit,Время c предыдущего визита
+ym:s:userVisitsPeriodInterval,Периодичность
+ym:s:userVisitsPeriod,Периодичность (детально)
+ym:s:firstVisitDate,Дата первого визита
+ym:s:firstVisitDatePeriod<group>,Дата первого визита (интервал)
+ym:s:firstVisitStartOfYear,Год первого визита
+ym:s:firstVisitStartOfQuarter,Квартал первого визита
+ym:s:firstVisitStartOfMonth,Месяц первого визита
+ym:s:firstVisitStartOfWeek,Неделя первого визита
+ym:s:firstVisitStartOfHour,Час первого визита
+ym:s:firstVisitStartOfDekaminute,Начало декаминуты первого визита
+ym:s:firstVisitStartOfMinute,Минута первого визита
+ym:s:firstVisitDateTime,Дата и время первого визита
+ym:s:firstVisitYear,Год первого визита
+ym:s:firstVisitMonth,Месяц первого визита
+ym:s:firstVisitDayOfMonth,День месяца первого визита
+ym:s:firstVisitDayOfWeek,День недели первого визита посетителя
+ym:s:firstVisitHour,Час первого визита
+ym:s:firstVisitMinute,Минута первого визита
+ym:s:firstVisitDekaminute,Декаминута первого визита
+ym:s:firstVisitHourMinute,Час и минута первого визита
+ym:s:previousVisitDate,Дата предыдущего визита
+ym:s:previousVisitDatePeriod<group>,Дата предыдущего визита (интервал)
+ym:s:previousVisitStartOfYear,Год предпоследнего визита
+ym:s:previousVisitStartOfQuarter,Квартал предпоследнего визита
+ym:s:previousVisitStartOfMonth,Месяц предпоследнего визита
+ym:s:previousVisitStartOfWeek,Неделя предпоследнего визита
+ym:s:previousVisitYear,Год предыдущего визита
+ym:s:previousVisitMonth,Месяц предыдущего визита
+ym:s:previousVisitDayOfMonth,День месяца предыдущего визита
+ym:s:previousVisitDayOfWeek,День недели предыдущего визита
+ym:s:gender,Пол
+ym:s:ageInterval,Возраст
+ym:s:interest,Категория интересов
+ym:s:interest2d1,"Категория интересов, ур. 1"
+ym:s:interest2d2,"Категория интересов, ур. 2"
+ym:s:interest2d3,"Категория интересов, ур. 3"
+ym:s:clientID,ClientID
+ym:pv:regionContinent,Континент
+ym:pv:regionCountry,Страна
+ym:pv:regionDistrict,Округ
+ym:pv:regionArea,Область
+ym:pv:regionCity,Город
+ym:pv:regionCitySize,Размер города
+ym:pv:browserLanguage,Язык браузера
+ym:pv:browserCountry,Страна браузера
+ym:pv:clientTimeZone,Часовой пояс на компьютере посетителя
+ym:pv:ipAddress,IP-адрес
+ym:pv:deviceCategory,Тип устройства
+ym:pv:mobilePhone,Производитель устройства
+ym:pv:mobilePhoneModel,Модель устройства
+ym:pv:operatingSystemRoot,Группа операционных систем
+ym:pv:operatingSystem,Операционная система (детально)
+ym:pv:browser,Браузер
+ym:pv:browserAndVersionMajor,Версия браузера
+ym:pv:browserAndVersion,Полная версия браузера
+ym:pv:cookieEnabled,Наличие Cookie
+ym:pv:javascriptEnabled,Наличие Javascript
+ym:pv:browserEngine,Движок браузера
+ym:pv:browserEngineVersion1,Major-версия движка браузера
+ym:pv:browserEngineVersion2,Minor-версия движка браузера
+ym:pv:browserEngineVersion3,Build-версия движка браузера
+ym:pv:browserEngineVersion4,Revision-версия движка браузера
+ym:pv:screenFormat,Соотношение сторон
+ym:pv:screenColors,Глубина цвета
+ym:pv:screenOrientation,Ориентация экрана
+ym:pv:screenResolution,Разрешение
+ym:pv:screenWidth,Логическая ширина
+ym:pv:screenHeight,Логическая высота
+ym:pv:physicalScreenResolution,Реальное разрешение
+ym:pv:physicalScreenWidth,Физическая ширина
+ym:pv:physicalScreenHeight,Физическая высота
+ym:pv:windowClientArea,Размер окна
+ym:pv:windowClientWidth,Ширина окна
+ym:pv:windowClientHeight,Высота окна
+ym:ad:<attribution>DirectOrder,Кампания Яндекс.Директа
+ym:ad:<attribution>DirectBannerGroup,Группа объявлений
+ym:ad:<attribution>DirectBanner,Объявление Яндекс.Директа
+ym:ad:<attribution>DirectPhraseOrCond,Условие показа объявления
+ym:ad:<attribution>DirectPlatformType,Тип площадки
+ym:ad:<attribution>DirectPlatform,Площадка
+ym:ad:<attribution>DirectSearchPhrase,Поисковая фраза (Директ)
+ym:ad:<attribution>DirectConditionType,Тип условия показа объявления
+ym:ad:<attribution>Currency,Валюта
+ym:ad:<attribution>DisplayCampaign,Номер заказа Яндекс.Дисплея
+ym:up:paramsLevel1,"Параметр посетителя, ур 1"
+ym:up:paramsLevel2,"Параметр посетителя, ур 2"
+ym:up:paramsLevel3,"Параметр посетителя, ур 3"
+ym:up:paramsLevel4,"Параметр посетителя, ур 4"
+ym:up:paramsLevel5,"Параметр посетителя, ур 5"
+ym:ev:<attribution>ExpenseSource,Рекламный канал
+ym:ev:<attribution>ExpenseMedium,Тип рекламного канала
+ym:ev:<attribution>ExpenseCampaign,Кампания
+ym:ev:<attribution>ExpenseTerm,Условие показа объявления
+ym:ev:<attribution>ExpenseContent,Контент объявления
