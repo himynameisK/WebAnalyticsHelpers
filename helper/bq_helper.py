@@ -17,7 +17,7 @@ def upload_to_regular_export_storage(bucket_name, table_name, delta = 1, sharded
         extra_symbol = '_*'
     else:
         extra_symbol = ''
-    destination_uri = "gs://{bucket}/{date}/{date}{extra_symbol}.json".format(bucket=bucket_name, 
+    destination_uri = "gs://{bucket}/{date}/{date}{extra_symbol}.json".format(bucket=bucket_name,
                                                                               extra_symbol=extra_symbol,
                                                                               date=export_date)
     dataset_ref = bigquery.DatasetReference(project, dataset_id)
@@ -30,8 +30,8 @@ def upload_to_regular_export_storage(bucket_name, table_name, delta = 1, sharded
         destination_uri,
         location="US",
         job_config=job_config,
-    )  
-    return extract_job#.result()  
+    )
+    return extract_job#.result()
 
 bq_client = bigquery.Client.from_service_account_json('/home/mark/helper/python_api.json')
 
@@ -135,7 +135,7 @@ regular_storage = 'regular-export-from-appsflyer'
 query = f'''
 insert into `api-project-743945597108.regular_export.{table_name}`
 select 
-cast(DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY) as string) as date,
+cast(DATE_SUB(CURRENT_DATE(), INTERVAL 2 DAY)as string) as date,
 attributed_touch_type,
 attributed_touch_time,
 install_time,
@@ -260,13 +260,13 @@ null as placement,
 null as rejected_reason,
 null as segment,
 null as validation_reason_value
-from `api-project-743945597108.Appsflyer.events` where DATE(event_time) = DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY)
+from `api-project-743945597108.Appsflyer.raw` where DATE(event_time) = DATE_SUB(CURRENT_DATE(), INTERVAL 2 DAY)
 
 
 union all 
 
 select  
-cast(DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY) as string) as date,
+cast(DATE_SUB(CURRENT_DATE(), INTERVAL 2 DAY)as string) as date,
 attributed_touch_type,
 attributed_touch_time,		
 install_time,
@@ -391,12 +391,12 @@ placement,
 null as rejected_reason,
 segment,
 null as validation_reason_value
-from `api-project-743945597108.Appsflyer_SberBusiness.events` where DATE(event_time) = DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY)
+from `api-project-743945597108.Appsflyer_SberBusiness.events` where DATE(event_time) = DATE_SUB(CURRENT_DATE(), INTERVAL 2 DAY)
 
 union all 
 
 select  
-cast(DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY) as string) as date,
+cast(DATE_SUB(CURRENT_DATE(), INTERVAL 2 DAY)as string) as date,
 attributed_touch_type,
 attributed_touch_time,
 install_time,
@@ -521,7 +521,7 @@ placement,
 rejected_reason,
 segment,
 validation_reason_value
-from `api-project-743945597108.Appsflyer_SberInvestor.events` where DATE(event_time) = DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY)
+from `api-project-743945597108.Appsflyer_SberInvestor.events` where DATE(event_time) = DATE_SUB(CURRENT_DATE(), INTERVAL 2 DAY)
 '''
 
 
